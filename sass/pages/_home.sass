@@ -1,0 +1,27 @@
+@use "../abstracts/index" as *
+
+.section-about
+    background-color: $color-grey-light-1
+    padding: 15rem 5rem
+    margin-top: -19vh
+
+
+.section-features
+    padding: 15rem 5rem
+    background-image: linear-gradient(
+        to right bottom,
+        rgba($color-primary-light, 0.8),
+        rgba($color-primary-dark, 0.8)
+    ), url(../img/nat-4.jpg)
+    background-size: cover
+    transform: skewY(-6.3deg)
+    margin-top: -13vh
+
+    & > *
+        transform: skewY(6.3deg)
+
+
+.section-tours
+    padding: 15rem 0 5rem
+    margin-top: -13vh
+    background-color: $color-grey-light-1
